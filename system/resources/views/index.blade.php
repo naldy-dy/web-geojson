@@ -83,6 +83,7 @@
         L.geoJSON(@json($data->geojson), {
             style: {
                 color: 'white',
+                fillColor : '#c70039',
                 fillOpacity: 0.5
             }
         }).addTo(data{{$data->id}});
